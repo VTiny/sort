@@ -19,6 +19,7 @@ public class Sort {
         ShellSort.sort(nums.clone());
         MergeSort.sort(nums.clone());
         HeapSort.sort(nums.clone());
+        RadixSort.sort(nums.clone());
     }
 
     public static void swap(int[] nums, int i, int j) {
